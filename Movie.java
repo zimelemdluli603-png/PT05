@@ -9,9 +9,7 @@ public class Movie extends Item
         super();
         this.duration = 0;
     }
-    
-    public Movie(int duration, String title, int year)
-    {
+    public Movie(String title, int year, int duration) {
         super(title, year);
         this.duration = duration;
     }
