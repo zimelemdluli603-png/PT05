@@ -10,8 +10,7 @@ public class Book extends Item
         this.author = "";
     }
 
-    public Book(String author, String title, int year)
-    {
+    public Book(String title, int year, String author) {
         super(title, year);
         this.author = author;
     }
